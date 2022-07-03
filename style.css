@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Smooch&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Smooch&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch&family=Staatliches&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Smooch&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+*{
+    padding: 0;
+    margin:0;
+
+}
+body{
+  background: url(https://media.giphy.com/media/kimPrHNUDksc14FXCB/giphy-downsized-large.gif);
+  background-size: cover;
+}
+
+#vegetableSaladImage{
+    width: 50vw;
+    height: 80vh;
+    margin-left: 300px;
+    border: 3px solid rgb(222, 228, 28);
+    border-radius: 30px;
+    padding: 12px 12px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #f6aca2;
+  --color-secondary: #f49b90;
+  --color-tertiary: #f28b7d;
+  --color-quaternary: #f07a6a;
+  --color-quinary: #ee6352;
+
+}
+
+
+
+
+#titleName {
+  text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
+    9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+  font-family: bungee, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: calc(2rem + 5vw);
+  text-align: center;
+  margin: 0;
+  color: var(--color-primary);
+  color: transparent;
+  color: aqua;
+  font-family: 'Pacifico', cursive;
+font-family: 'Smooch', cursive;
+font-family: 'Staatliches', cursive;
+  
+  background-clip: text;
+  animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
+  letter-spacing: 0.4rem;
+}
+
+@keyframes shadows {
+  0% {
+    text-shadow: none;
+  }
+  10% {
+    text-shadow: 3px 3px 0 var(--color-secondary);
+  }
+  20% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary);
+  }
+  30% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+  }
+  40% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  50% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  60% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  70% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+  }
+  80% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary);
+  }
+  90% {
+    text-shadow: 3px 3px 0 var(--color-secondary);
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  40% {
+    transform: translate(-12px, -12px);
+  }
+  50% {
+    transform: translate(-12px, -12px);
+  }
+  60% {
+    transform: translate(-12px, -12px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+#steps{
+  margin-left: 3vh;
+  margin-right: 140vh;
+  color: black;
+  background: white;
+  font-family: 'Smooch', cursive;
+font-family: 'Staatliches', cursive;
+font-family: 'Titan One', cursive;
+}
+#stepForVegetableSalad{
+  color: white;
+  font-size: 1.6em;
+  font-family: 'Pacifico', cursive;
+font-family: 'Smooch', cursive;
+font-family: 'Staatliches', cursive;
+}
+.her{
+    border: 3px solid black;
+    background: rgb(99, 201, 56);
+    background-size: cover;
+    padding: 9PX 12px;
+    margin-left: 264px;
+    margin-right: 432px;
+    font-family: 'Oswald', sans-serif;
+font-family: 'Smooch', cursive;
+font-family: 'Staatliches', cursive;
+}
+.her h2{
+    font-size: 2.5em;
+}
+.her p{
+    font-size: 1.3em;
+    
+}
+#footerText{
+   margin-left:28vh;
+   font-size: 1.3em;
+   color: white;
+   font-family: 'Pacifico', cursive;
+font-family: 'Smooch', cursive;
+font-family: 'Staatliches', cursive;
+}
+#benefitsParagraph{
+  margin-left: 3vh;
+  font-size: 1.6em;
+  color: white;
+  font-family: 'Pacifico', cursive;
+font-family: 'Smooch', cursive;
+font-family: 'Staatliches', cursive;
+}
+#benefits{
+  margin-left: 3vh;
+  margin-right: 155vh;
+  color: black;
+  background: white;
+  font-family: 'Smooch', cursive;
+font-family: 'Staatliches', cursive;
+font-family: 'Titan One', cursive;
+}
+#ing{
+    font-family: 'Cedarville Cursive', cursive;
+
+}
+
